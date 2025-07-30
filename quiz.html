@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentient AGI Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="question-container">
+        <p class="question" id="question"></p>
+        <ul class="options" id="options">
+            <li><input type="radio" id="option1" name="option" value="0"><label id="option1-label" for="option1"></label></li>
+            <li><input type="radio" id="option2" name="option" value="1"><label id="option2-label" for="option2"></label></li>
+            <li><input type="radio" id="option3" name="option" value="2"><label id="option3-label" for="option3"></label></li>
+            <li><input type="radio" id="option4" name="option" value="3"><label id="option4-label" for="option4"></label></li>
+        </ul>
+        <p class="result"></p>
+        <button id="next-btn">Next</button>
+        <button id="prev-btn">Previous</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
